@@ -32,7 +32,6 @@ The first step is to create an InvoiceStatement object. After you create a PushT
       Negotiating
       Pending
 
-
     5. Select the checkbox for Use first value as default value.
     6. Click Next.
     7. For field-level security, select Read Only and then click Next.
@@ -58,11 +57,17 @@ Use the System Log to create the PushTopic record that contains a SOQL query. Ev
   3. In the Enter Apex Code window, paste in the following Apex code, and click Execute.
 
     PushTopic pushTopic = new PushTopic();
+
     pushTopic.Name = 'InvoiceStatementUpdates';
+
     pushtopic.Query = 'SELECT Id, Name, Status__c, Description__c FROM Invoice_Statement__c';
+
     pushTopic.ApiVersion = 24.0;
+
     pushTopic.NotifyForOperations = 'All';
+
     pushTopic.NotifyForFields = 'Referenced';
+
     insert pushTopic;
 
 Because NotifyForOperations is set to All, Streaming API evaluates records that are created or updated and generates a notification if the record matches the PushTopic query. Because NotifyForFields is set to Referenced, Streaming API will use fields in both the SELECT clause and the WHERE clause to generate a notification. Whenever the fields Name, Status__c, or Description__c are updated, a notification will be generated on this channel.
