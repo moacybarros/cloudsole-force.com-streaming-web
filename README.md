@@ -60,7 +60,7 @@ Use the System Log to create the PushTopic record that contains a SOQL query. Ev
 
     pushTopic.Name = 'InvoiceStatementUpdates';
 
-    pushtopic.Query = 'SELECT Id, Name, Status__c, Description__c FROM Invoice_Statement__c';
+    pushtopic.Query = 'SELECT Id, Name, Status\_\_c, Description\_\_c FROM Invoice\_Statement\_\_c';
 
     pushTopic.ApiVersion = 24.0;
 
