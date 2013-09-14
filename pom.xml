@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>streaming</artifactId>
+    <groupId>com.thysmichels</groupId>
+    <artifactId>cloudsole-streaming</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -19,6 +19,7 @@
     </repositories>
 
     <dependencies>
+    	
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -49,7 +50,7 @@
         <dependency>
             <groupId>com.force.sdk.streaming</groupId>
             <artifactId>streaming</artifactId>
-            <version>0.13</version>
+            <version>0.14</version>
         </dependency>
     </dependencies>
 
@@ -61,6 +62,7 @@
                     <source>1.6</source>
                     <target>1.6</target>
                 </configuration>
+                <version>2.3.2</version>
             </plugin>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/streaming")
-public class TestStreamingController {
+public class StreamingController {
 
     @RequestMapping("")
     public String index() {
