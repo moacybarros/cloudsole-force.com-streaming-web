@@ -17,6 +17,13 @@
             <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
         </repository>-->
         <repository>
+          <id>local-project-libraries</id>
+          <name>Local project libraries</name>
+          <url>file://${project.basedir}/lib</url>
+          <layout>default</layout>
+      	</repository>
+        
+        <repository>
             <id>force-rest-api</id>
             <name>force-rest-api repository on GitHub</name>
             <url>http://jesperfj.github.com/force-rest-api/repository/</url>
