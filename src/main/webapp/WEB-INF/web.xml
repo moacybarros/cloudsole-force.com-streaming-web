@@ -47,11 +47,11 @@
         <url-pattern>/cometd/*</url-pattern>
     </filter-mapping>
     
-  <!--   <servlet>
+    <servlet>
         <servlet-name>initializer</servlet-name>
         <servlet-class>com.force.sdk.streaming.server.ForceStreamingResource</servlet-class>
         <load-on-startup>2</load-on-startup>
-    </servlet>--> 
+    </servlet>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

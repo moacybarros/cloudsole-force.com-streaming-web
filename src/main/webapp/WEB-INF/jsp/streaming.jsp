@@ -144,6 +144,15 @@
           cometd.handshake();
         });
       })(jQuery);
+      
+      $(document).ready(function(){
+    	    $('#myAnchor').click(function(e){
+    	      e.preventDefault();
+    	      $.get('/sfdc/streaming', function(data) {
+    	    	  $("#messages").append('<pre>' + JSON.stringify(messages) + '</pre>');
+    	      });
+    	    });
+       });
      
     </script>
     <style type="text/css">
@@ -192,7 +201,7 @@
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li class="active"><a href="#">Home</a></li>
-						
+						<li><a id="myAnchor" href="/sfdc/streaming">Create Account</a></li>
 						<li class="divider-vertical"></li>
 					</ul>
 				</div>

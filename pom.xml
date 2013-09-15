@@ -16,6 +16,15 @@
             <id>repo</id>
             <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
         </repository>
+        <repository>
+            <id>force-rest-api</id>
+            <name>force-rest-api repository on GitHub</name>
+            <url>http://jesperfj.github.com/force-rest-api/repository/</url>
+        </repository>
+        <repository>
+            <id>webjars</id>
+            <url>http://webjars.github.com/m2</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -52,6 +61,12 @@
             <artifactId>streaming</artifactId>
             <version>0.14</version>
         </dependency>
+         <dependency>
+            <groupId>com.force.api</groupId>
+            <artifactId>force-rest-api</artifactId>
+            <version>0.0.19</version>
+        </dependency>
+   
     </dependencies>
 
     <build>

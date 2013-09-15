@@ -65,37 +65,6 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="marketing">
-        <div class="introduction">
-          <h2>Introduction</h2>
-          <p>Sometimes as a Salesforce Administrator or Developer it is not easy to view the data in our Salesfoce org. With a little bit of SOQL knowledge you can easily run queries to get any data from any Salesforce object. Through an easy to use interface you can also add, edit or delete any record which makes managing data a breeze. </p>
-        </div>
-
-        <hr class="soften">
-        <h1>Get started developing in the cloud today.</h1>
-        <hr class="soften">
-
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="bs-icon">
-            <h2>Secure Login</h2>
-            <p>Using OAuth you can easily and securely login to CloudSole with your Salesforce username and password.</p>
-          </div>
-          <div class="span4">
-            <img class="bs-icon">
-            <h2>Customizable Queries</h2>
-            <p>Select any Salesforce object and the SOQL query will automatically be created with all the necessary fields. Customize the query to get all the data you need. </p>
-         </div>
-          <div class="span4">
-            <img class="bs-icon">
-            <h2>Easily Manage Data</h2>
-            <p>Easily create, update or delete your data. After you have run a query you can click the 'Download' button to download the data to a csv file.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript">
       (function() {
