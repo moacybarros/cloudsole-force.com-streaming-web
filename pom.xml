@@ -12,6 +12,10 @@
     </properties>
 
     <repositories>
+    	<!-- <repository>
+            <id>repo</id>
+            <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
+        </repository>-->
         <repository>
             <id>force-rest-api</id>
             <name>force-rest-api repository on GitHub</name>
@@ -52,16 +56,90 @@
             <version>7.0.22.3</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.force.sdk.streaming</groupId>
-            <artifactId>streaming</artifactId>
-            <version>0.14</version>
-        </dependency>
-        
          <dependency>
             <groupId>com.force.api</groupId>
             <artifactId>force-rest-api</artifactId>
             <version>0.0.19</version>
+        </dependency>
+         <dependency>
+         	<groupId>com.force.sdk.streaming</groupId>
+         	<artifactId>streaming</artifactId>
+         	<version>0.14</version>
+         </dependency>
+          <!-- injection -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject.extensions</groupId>
+            <artifactId>guice-servlet</artifactId>
+            <version>3.0</version>
+        </dependency>
+          <!-- cometd -->
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-common</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-client</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-server</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+         <!-- Logging -->
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.15</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.mail</groupId>
+                    <artifactId>mail</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.jms</groupId>
+                    <artifactId>jms</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.sun.jdmk</groupId>
+                    <artifactId>jmxtools</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.sun.jmx</groupId>
+                    <artifactId>jmxri</artifactId>
+                </exclusion>
+            </exclusions>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>1.0</version>
+        </dependency>
+         <!-- Force.com -->
+        <dependency>
+            <groupId>com.force.sdk</groupId>
+            <artifactId>force-connector</artifactId>
+            <version>22.0.2-BETA</version>
+        </dependency>
+        <dependency>
+            <groupId>com.force.sdk</groupId>
+            <artifactId>force-jpa</artifactId>
+            <version>22.0.2-BETA</version>
         </dependency>
     </dependencies>
 
