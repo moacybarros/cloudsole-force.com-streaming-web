@@ -13,10 +13,6 @@
 
     <repositories>
         <repository>
-            <id>repo</id>
-            <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
-        </repository>
-        <repository>
             <id>force-rest-api</id>
             <name>force-rest-api repository on GitHub</name>
             <url>http://jesperfj.github.com/force-rest-api/repository/</url>
@@ -61,6 +57,7 @@
             <artifactId>streaming</artifactId>
             <version>0.14</version>
         </dependency>
+        
          <dependency>
             <groupId>com.force.api</groupId>
             <artifactId>force-rest-api</artifactId>
