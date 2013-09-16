@@ -50,7 +50,7 @@
         <p>Salesforce Streaming.</p>
         <div class="description">
           <div class="description-inner">
-            <p>Cloudsole is an <strong>easy</strong> way to develop Salesforce apex classes, triggers, components and visualforce pages. It uses the salesforce API to access your data in a <strong>safe</strong> and secure way.</p>
+            <p>Cloudsole Streaming is an <strong>easy</strong> way to see how <strong>Salesforce streaming</strong> works. It uses the salesforce <strong>streaming API</strong> to stream data in a JSON format back to the webpage.</p>
           </div>
         </div>
 

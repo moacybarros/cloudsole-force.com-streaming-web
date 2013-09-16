@@ -1,27 +1,14 @@
 package com.example.service;
 
-import org.cometd.bayeux.server.BayeuxServer;
-
 import com.force.sdk.streaming.client.ForceBayeuxClient;
 import com.force.sdk.streaming.client.ForceStreamingClientModule;
 import com.force.sdk.streaming.client.PushTopicManager;
 import com.force.sdk.streaming.exception.ForceStreamingException;
 import com.force.sdk.streaming.model.PushTopic;
-import com.force.sdk.streaming.server.ForceStreamingService;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
 public class PushTopicFactory {
-	
-	public BayeuxServer bayeuxServer(){
-		BayeuxServer b;
-		return null;
-	}
-	
-	public ForceStreamingService streamingService(){
-		//ForceStreamingService ss = new ForceStreamingService(new BayeuxServer, new ServletConf);
-		return null;
-	}
 	
 	
 	public Injector createInjector(){

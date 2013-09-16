@@ -30,7 +30,7 @@ public class StreamingService {
 			e1.printStackTrace();
 		} 
 		
-		/*try {
+		try {
 			client.subscribeTo(topic, new ClientSessionChannel.MessageListener() 
 			{   
 				public void onMessage(ClientSessionChannel channel, Message message) 
@@ -41,6 +41,6 @@ public class StreamingService {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 	}
 }

@@ -12,17 +12,12 @@
     </properties>
 
     <repositories>
-    	<!-- <repository>
-            <id>repo</id>
-            <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
-        </repository>-->
         <repository>
         	<id>project.local</id>
         	<name>project</name>
         	<url>file:${project.basedir}/repo</url>
         	<snapshots>
        		 	<enabled>true</enabled>
-    			<checksumPolicy>fail</checksumPolicy>
  		 	</snapshots>
    		 </repository>
         
