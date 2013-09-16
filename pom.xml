@@ -17,11 +17,10 @@
             <url>https://raw.github.com/naamannewbold/repo/master/releases/</url>
         </repository>-->
         <repository>
-          <id>local-project-libraries</id>
-          <name>Local project libraries</name>
-          <url>file://${project.basedir}/lib</url>
-          <layout>default</layout>
-      	</repository>
+        	<id>project.local</id>
+        	<name>project</name>
+        	<url>file:${project.basedir}/repo</url>
+   		 </repository>
         
         <repository>
             <id>force-rest-api</id>
