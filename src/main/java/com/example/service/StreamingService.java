@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.cometd.bayeux.Message;
 import org.cometd.bayeux.client.ClientSessionChannel;
+import org.eclipse.jetty.util.log.Log;
 
 import com.example.service.PushTopicFactory;
 import com.force.sdk.streaming.client.ForceBayeuxClient;
@@ -35,7 +36,7 @@ public class StreamingService {
 			{   
 				public void onMessage(ClientSessionChannel channel, Message message) 
 				{
-					
+					Log.info(message.getJSON());
 				}
 			});
 		} catch (InterruptedException e) {
