@@ -106,3 +106,8 @@ Upload the app to Heroku:
 Open the app in your browser:
 
     $ heroku open
+    
+Screenshots:
+
+ ![ScreenShot](https://github.com/thysmichels/cloudsole-force.com-streaming-web/raw/master/img/CloudSoleStreaming.png "Streaming Screen")
+   
