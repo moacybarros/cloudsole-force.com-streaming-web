@@ -88,7 +88,7 @@ Then run it with:
 
 Clone this project locally:
 
-    $ git clone https://github.com/dangt85/template-sfdc-java-springmvc.git
+    $ git clone https://github.com/thysmichels/cloudsole-force.com-streaming-web.git
 
 Create a new app on Heroku (make sure you have the [Heroku Toolbelt](http://toolbelt.heroku.com) installed):
 
